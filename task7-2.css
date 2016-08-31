@@ -1,0 +1,263 @@
+*{margin: 0;
+    padding:0;}
+html{font-size: 62.5%;}
+a{text-decoration: none;}
+.box{max-width:1920px;width:100%;}
+/*header*/
+.white p{vertical-align:middle;display: inline-block;position: relative;left:18.7%;font-family: "Microsoft YaHei";
+    color: #29b078;font-size: 14px;}
+.past1{vertical-align:middle;display: inline-block;  position: relative;left:66.6%;margin:0.36% 0 0.36% 0;cursor: pointer;}
+.index {max-width:1920px;width:100%;
+    background: #29b078;
+    height: 100px;}
+.ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.index ul {
+    width: 400px;
+    font-family: "Microsoft YaHei", sans-serif;
+    list-style-type: none;
+    margin: 0;
+    font-size: 16px;
+    position: relative;left: 61.9%;
+
+}
+#index2 {
+    padding-bottom: 34px;
+}
+
+.index ul li {
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    margin: 40px 0 0 0;
+}
+.index ul li a {
+    text-decoration: none;
+    text-align: center;
+    color:#ffffff;
+    display: block;
+    width: 100px;
+}
+.index ul li a:hover, a:visited, a:active {
+    width: 100px;
+    padding-bottom: 33px;
+    border-bottom: 5px solid;
+    transition: 0.01s align;}
+.index1{position: absolute;left: 18.75%;
+    width: 110px;
+    height: 48px;
+    margin-top: 28px;
+}
+#banner {
+    width: 100%;position:relative;}
+
+.clear {
+    clear: both;}
+/*main*/
+
+.main {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.news {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 24px 0;
+}
+
+.main a {
+    text-decoration: none;
+    color: #29b078;
+}
+
+.friend {
+    width: 305px;
+    background: #FFFFFF;
+    margin-bottom: 630px;
+    border: solid 1px #ededed;
+    border-radius: 15px;
+}
+
+.friend h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 0;
+    border-bottom: 1px solid #ededed;
+}
+
+.friend ul {
+    width: 305px;
+    padding-top: 18px;
+    list-style: none;
+
+}
+
+.friend ul li {
+    padding: 18px 0 18px 118px;
+    margin: 0;
+    cursor: pointer;
+    color: #29b078;
+}
+
+.friend ul li span {
+    border: 1px solid #ff650e;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.friend ul li a:hover, a:visited, a:active {
+    color: #ff650e;border-bottom:none;
+}
+
+.friend ul li a span:hover {
+    background-color: #ff650e;
+}
+
+#light {
+    color: #ff650e;
+}
+
+#back {
+    background: #ff650e;
+}
+
+.content {
+    width: 870px;
+    margin: 0 0 0 27px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 68px;
+    right: 0;
+    padding-bottom: 186px;
+    font-size: 14px;
+    line-height: 27px;
+    font-family: "Microsoft YaHei", sans-serif;
+    border: solid 1px #ededed;
+    border-radius: 15px;
+}
+
+.introduction {
+    border-bottom: 1px solid #ededed;
+}
+
+.content img {
+    width: 121px;
+    height: 32px;
+    top: 60px;
+    left: 84px;
+    margin: 60px 30px 57px 84px;
+    display: inline-block;
+}
+
+#style {
+    width: 570px;
+    float: right;
+    margin: 13px 60px 0 0;
+    font-size: 14px;
+
+}
+
+.content p {
+    text-indent: 24px;
+    margin: 40px 60px 0 62px;
+}
+
+
+
+
+/*footer*/
+.footer {
+    width: 100%;
+    background: #26a26f;
+}
+
+.about {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.skill {display: inline-block;
+    width: 362px;
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+.skill > p {
+    padding: 36px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.skill p ~ p {
+    padding: 18px 0;
+    font-size: 14px;
+}
+
+.webs {
+    width: 362px;
+    color: #FFFFFF;
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    left: 362px;
+    top: 0;
+    font-weight: bold;
+}
+
+.webs h2 {
+    padding: 14px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.webs ul {display: inline-block;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    float: left;
+}
+
+.webs ul li {
+    width: 120px;
+    display: inline-block;
+    padding-bottom: 27px;
+}
+
+.webs ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.wxgzh {display: inline-block;
+    width: 97px;
+    top: 35px;
+    color: #FFFFFF;
+    float: right;
+    margin-right: 130px;
+}
+
+.wxgzh h3 {
+    font-size: 16px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.footer h4 {
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 8px 0;
+    border-top: 1px solid #32c086;
+}
